@@ -1,0 +1,17 @@
+GenericEntity : "{C95E11C60810F432}Prefabs/Items/Core/Item_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     ItemVolume 100
+    }
+   }
+  }
+  SCR_RepairSupportStationComponent "{5DF4D9A1C2C8E9C8}" {
+   m_bUseSupplies 0
+   m_iDamageHealedEachExecution 50
+   m_fMaxHealScaled 1
+  }
+ }
+}
